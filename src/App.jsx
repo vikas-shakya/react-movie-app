@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import MovieCard from "./components/MovieCard";
 
+import Home from "./pages/Home";
+
 import "./App.css";
 
 function App() {
@@ -9,7 +11,7 @@ function App() {
 
   return (
     <>
-      <MovieCard movie={{ title: "SpiderMan", release_date: "2024" }} />
+      <Home />
     </>
   );
 }
